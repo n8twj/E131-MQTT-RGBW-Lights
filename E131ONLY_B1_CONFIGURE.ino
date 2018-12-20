@@ -14,7 +14,6 @@
 
 my92xx _my92xx = my92xx(MY92XX_MODEL, MY92XX_CHIPS, MY92XX_DI_PIN, MY92XX_DCKI_PIN, MY92XX_COMMAND_DEFAULT);
 ESPAsyncE131 e131(UNIVERSE_COUNT);
-WiFiClient espClient;
 
 //USER CONFIGURED SECTION START//
 #define OTA_CLIENT_NAME    "B1_2" //This name will be used for arduinoOTA only
